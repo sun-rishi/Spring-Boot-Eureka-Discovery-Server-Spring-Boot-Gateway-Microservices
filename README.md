@@ -15,8 +15,8 @@ then all other microservices
 In the end run spring cloud gateway
 
 Go To Url: http://localhost:8661/service-one/get
-Go To Url: http://localhost:8661/service-two/get
-Go To Url: http://localhost:8661/service-three/get
+Go To Url: http://localhost:8662/service-two/get
+Go To Url: http://localhost:8663/service-three/get
 
 Now Go To Url for gateway routing :
 http://localhost:8080/service-one/get

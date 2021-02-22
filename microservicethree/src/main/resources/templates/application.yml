@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /microserviceone
+  port: 8661
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

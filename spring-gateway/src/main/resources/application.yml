@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true 
+ 
+spring:
+  application:
+    name: spring-gateway  cloud:    gateway:      routes:      - id: serviceOne
+        uri: lb://MICROSERVICE-ONE
+        predicates:
+        - Path=/service-one/*** 
+      - id: serviceTwo
+        uri: lb://MICROSERVICE-TWO
+        predicates:
+        - Path=/service-two/***     
+      - id: serviceThree
+        uri: lb://MICROSERVICE-THREE
+        predicates:
+        - Path=/service-three/***   
+

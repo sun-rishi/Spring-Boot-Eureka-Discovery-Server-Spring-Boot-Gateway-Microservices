@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: microservice-three
+server:
+  servlet:
+    context-path: /service-three
+  port: 8663
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true 

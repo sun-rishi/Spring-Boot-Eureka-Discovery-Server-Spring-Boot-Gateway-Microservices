@@ -1,16 +1,20 @@
-#Simple microservice with eureka client and server
+# Simple microservice with eureka client and server
 
-Note: run as springbootapp
 
-first- Run discovery server
-then all other microservices
-In the end run spring cloud gateway
 
+# Quick Start
+Note: Run as Springbootapp using Spring Tool Suite
+Run discovery server
+Run all three microservices
+Run gateway Service
+
+# Review
 Go To Url: http://localhost:8661/service-one/get
 Go To Url: http://localhost:8662/service-two/get
 Go To Url: http://localhost:8663/service-three/get
 
-Now Go To Url for gateway routing :
+# Result
+Go To Url for gateway routing :
 http://localhost:8080/service-one/get    
 http://localhost:8080/service-two/get    
 http://localhost:8080/service-three/get   

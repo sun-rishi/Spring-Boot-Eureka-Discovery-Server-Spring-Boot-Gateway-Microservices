@@ -12,6 +12,6 @@ Go To Url: http://localhost:8662/service-two/get
 Go To Url: http://localhost:8663/service-three/get
 
 Now Go To Url for gateway routing :
-http://localhost:8080/service-one/get
-http://localhost:8080/service-two/get
-http://localhost:8080/service-three/get
+http://localhost:8080/service-one/get    
+http://localhost:8080/service-two/get    
+http://localhost:8080/service-three/get    

@@ -3,10 +3,10 @@
 
 
 # Quick Start
-Note: Run as Springbootapp using Spring Tool Suite
-Run discovery server
-Run all three microservices
-Run gateway Service
+Note: Run as Springbootapp using Spring Tool Suite.
+Run discovery server.
+Run all three microservices.
+Run gateway Service.
 
 # Review
 Go To Url: http://localhost:8661/service-one/get

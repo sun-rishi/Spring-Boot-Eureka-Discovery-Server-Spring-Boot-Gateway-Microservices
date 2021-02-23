@@ -1,5 +1,6 @@
-# Simple microservice with eureka client and server
+# Microservices With Eureka Client, Server and Spring Cloud Gateway
 
+This project has three microservices which are registered with Eureka Server. Spring Cloud Gateway is used to communicate to each of the service.
 
 
 # Quick Start

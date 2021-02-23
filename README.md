@@ -1,5 +1,4 @@
-####Simple microservice with eureka client and server######
-####User springboot maven projects to create following services###
+#Simple microservice with eureka client and server
 
 Note: run as springbootapp
 
@@ -14,4 +13,8 @@ Go To Url: http://localhost:8663/service-three/get
 Now Go To Url for gateway routing :
 http://localhost:8080/service-one/get    
 http://localhost:8080/service-two/get    
-http://localhost:8080/service-three/get    
+http://localhost:8080/service-three/get   
+
+## Feedback
+
+Please report bugs, concerns, suggestions by issues.

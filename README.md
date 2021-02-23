@@ -1,14 +1,7 @@
 ####Simple microservice with eureka client and server######
 ####User springboot maven projects to create following services###
 
-1. create microservice-eone client
-2. create microservice-two client
-3. create microservice-three client
-4. create eureka-discovery-server 
-5. create spring-cloud-gateway
-
-
-Note: run as jar springbootapp
+Note: run as springbootapp
 
 first- Run discovery server
 then all other microservices

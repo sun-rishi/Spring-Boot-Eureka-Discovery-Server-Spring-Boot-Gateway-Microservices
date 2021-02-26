@@ -1,0 +1,15 @@
+version: "1.0"
+services:
+ registration:
+  image: ds
+  ports:
+   - "8761:8761"
+
+ microserviceone:
+  image: mone
+  ports:
+   - "8661:8661"
+  links:
+   - registration
+  depends_on:
+   - registration

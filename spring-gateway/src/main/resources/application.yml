@@ -7,11 +7,15 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
-    hostname: ${COMPUTERNAME} 
+    hostname: Rishi
  
 spring:
   application:
-    name: spring-gateway  cloud:    gateway:      routes:      - id: serviceOne
+    name: spring-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: serviceOne
         uri: lb://MICROSERVICE-ONE
         predicates:
         - Path=/service-one/*** 

@@ -5,7 +5,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
   instance:
-    hostname: ${COMPUTERNAME}
+    hostname: Rishi
 logging:
   level:
     '[com.netflix.eureka]': 'OFF'

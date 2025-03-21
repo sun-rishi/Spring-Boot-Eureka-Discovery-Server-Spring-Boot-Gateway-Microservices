@@ -3,7 +3,8 @@ spring:
     name: microservice-one
 server:
   servlet:
-    context-path: /service-one
+    context-path: /
+
   port: 8661
 eureka:
   client:
@@ -11,4 +12,4 @@ eureka:
       defaultZone: http://registration:8761/eureka/
   instance:
     prefer-ip-address: true
-    hostname: ${COMPUTERNAME}  
+    hostname: Rishi
